@@ -11,7 +11,7 @@ test purpose it just prints them out in a loop.
 
 To run cluster deployment:
 
-docker-compose up
+> docker-compose up
 
 Grafana is provisioned with an initial dashboard containers.json
 (from dashboards directory).
@@ -21,4 +21,6 @@ Next panels are available in dashboard:
 - memory (rss used)
 
 These panels are set to track containers with names starting with
-'compose_'. Default name prefix for containers is set in .env file.
+'compose_'. Name prefix 'compose' for containers is set in .env file.
+
+Grafana is accessible via port 3000.
