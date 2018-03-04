@@ -1,0 +1,12 @@
+---
+machines:
+  webserver:
+    name: web
+    sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDczshoUJpD2g91JYC6mNinDEwbAsyOajHlYMw/91Nx28KczGt0AFGfEfS+GbR8zQPUy+jCqiL9jJ4TAq+KeDJpQD8VywSUn43GfshsNKZ7Sproo5PENvkPNyxwlqtKTw0dOyfbrOA8fH/RKLNdNMMRmV19b0Rga15/YO+6I2+ICVEttrCNrTQNOwNNBd+WQDe6neZTJmdM+UlS+6WAlkcpajoGXnWOcrT7WYxBMbYlVGezjfzwiMwEa4f9p0gKBnL/kaVidkwmdAzFO7UHUFeU4zbwysws9lh93x4kBesNxnbqB3NiJHMMFcYq3uvsvqRVp7O/JZFB4uvh6yvatTb7 goat@laptop
+    type: t2.micro
+    ami: ami-867ceaff
+  applicationserver:
+    name: app
+    sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDczshoUJpD2g91JYC6mNinDEwbAsyOajHlYMw/91Nx28KczGt0AFGfEfS+GbR8zQPUy+jCqiL9jJ4TAq+KeDJpQD8VywSUn43GfshsNKZ7Sproo5PENvkPNyxwlqtKTw0dOyfbrOA8fH/RKLNdNMMRmV19b0Rga15/YO+6I2+ICVEttrCNrTQNOwNNBd+WQDe6neZTJmdM+UlS+6WAlkcpajoGXnWOcrT7WYxBMbYlVEezjfzwiMwEa4f9p0gKBnL/kaVidkwmdAzFO7UHUFeU4zbwysws9lh93x4kBesNxnbqB3NiJHMMFcYq3uvsvqRVp7O/JZFB4uvh6yvatTb7 wolf@workstation
+    type: t2.micro
+    ami: ami-ce76a7b7
